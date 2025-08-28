@@ -6,15 +6,15 @@ const Header = () => {
 
             <div className="flex items-center relative">
                 <div className="absolute -left-3 top-1/2 transform -translate-y-1/2 w-1.5 h-6 bg-teal-400 rounded-full opacity-80"></div>
-                <span className="font-bold text-white text-xl tracking-tight">Perplexity 2.0</span>
+                <span className="font-bold text-white text-xl tracking-tight">Perplexity</span>
             </div>
 
-            <div className="flex items-center space-x-1">
+            {/* <div className="flex items-center space-x-1">
                 <a className="text-white/80 text-xs px-4 py-2 font-medium hover:text-white hover:bg-white/10 rounded-lg transition-all duration-200 cursor-pointer">HOME</a>
                 <a className="text-white bg-white/10 text-xs px-4 py-2 font-medium hover:bg-white/15 rounded-lg transition-all duration-200 cursor-pointer">CHAT</a>
                 <a className="text-white/80 text-xs px-4 py-2 font-medium hover:text-white hover:bg-white/10 rounded-lg transition-all duration-200 cursor-pointer">CONTACTS</a>
                 <a className="text-white/80 text-xs px-4 py-2 font-medium hover:text-white hover:bg-white/10 rounded-lg transition-all duration-200 cursor-pointer">SETTINGS</a>
-            </div>
+            </div> */}
         </header>
     )
 }
