@@ -25,7 +25,7 @@ search_tool = TavilySearchResults(
 
 tools = [search_tool]
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 llm_with_tools = llm.bind_tools(tools=tools)
 
