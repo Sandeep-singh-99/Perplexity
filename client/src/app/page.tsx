@@ -69,9 +69,9 @@ const Home = () => {
             }
           }
         ]);
-        // https://perplexity-latest-3h4y.onrender.com
+        // http://127.0.0.1:8000
         // Create URL with checkpoint ID if it exists
-        let url = `http://127.0.0.1:8000/chat_stream/${encodeURIComponent(userInput)}`;
+        let url = `https://perplexity-latest-thfy.onrender.com/chat_stream/${encodeURIComponent(userInput)}`;
         if (checkpointId) {
           url += `?checkpoint_id=${encodeURIComponent(checkpointId)}`;
         }
